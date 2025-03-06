@@ -10,7 +10,6 @@
 </div>
 
 <div>
-  <input type="text" [(ngModel)]="userName" placeholder="Enter your name" /> 
-  <br/><br/>
+  <input type="text" [(ngModel)]="userName" (input)="onInput($event)" placeholder="Enter your name" />
+  <span class="error-output">{{ nameError }}</span>
 </div>
-
