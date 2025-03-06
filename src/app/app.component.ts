@@ -9,6 +9,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'HelloWorld';
+  imgUrl="C:/Users/ayush/Downloads/Ayush - FS HTML_CSS LP01 assets/assets";
 
   ngOnInit(): void {
     this.title = 'Hello From BridgeLabz!!';
